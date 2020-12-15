@@ -1,0 +1,27 @@
+Vivado Simulator 2015.3
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2015.3/bin/unwrapped/win64.o/xelab.exe -wto 8d2fbf37f46f4fc78c420ca78b599c1f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 6 differs from formal bit length 5 for port sa [E:/vivado/ECOP-18340161-03/ECOP-18340161-03.srcs/sources_1/new/SingleCyleCPU.v:67]
+WARNING: [VRFC 10-278] actual bit length 6 differs from formal bit length 5 for port sa [E:/vivado/ECOP-18340161-03/ECOP-18340161-03.srcs/sources_1/new/SingleCyleCPU.v:70]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Instruction_divid
+Compiling module xil_defaultlib.SelectRegDst
+Compiling module xil_defaultlib.Register_Files
+Compiling module xil_defaultlib.ALUSourcrA_Select
+Compiling module xil_defaultlib.DataSelect
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.upDatePC
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.SingleCyleCPU
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
